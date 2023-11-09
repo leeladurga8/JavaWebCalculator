@@ -14,7 +14,11 @@ public class Calculator extends HttpServlet
 		
 		return second-first;
 	}
+public long mulFucn(long first, long second){
 		
+		return first*second;
+	}
+			
 	
 	
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
